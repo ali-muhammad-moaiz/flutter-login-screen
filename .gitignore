@@ -41,3 +41,81 @@ app.*.map.json
 /android/app/debug
 /android/app/profile
 /android/app/release
+
+# Flutter/Dart specific
+**/build/
+**/.idea/
+**/.vscode/
+/captures/
+/generated/
+/test/.dart_tool/
+*.lock
+*.pid
+*.metadata
+*.patch
+*.project
+*.sublime-workspace
+*.sync
+*.tags
+*.template
+*.vs
+*.vstemplate
+*.xcuserstate
+.idea/*
+!.idea/.gitkeep
+*.swo
+*.bak
+*~
+
+# Android specific
+**/android/.gradle
+**/android/.idea
+**/android/.settings
+**/android/*.iml
+**/android/app/build/
+**/android/gradle/
+**/android/gradlew
+**/android/gradlew.bat
+**/android/local.properties
+
+# iOS specific
+**/ios/.simulatordevice/
+**/ios/Podfile.lock
+**/ios/Pods/
+**/ios/Runner.xcworkspace/xcuserdata/
+**/ios/.generated/
+
+# Web specific
+**/web/.dart_tool/build/
+**/web/assets/
+**/web/packages/
+**/web/.generated/
+**/web/*.js
+**/web/*.dart.js
+**/web/*.html.js
+**/web/*.html
+**/web/*.css
+**/web/*.dart.js.map
+**/web/favicon.png
+**/web/manifest.json
+**/web/*.js.map
+**/web/*.assets
+**/web/*.webmanifest
+**/web/*.part.js
+**/web/flutter_service_worker.js
+**/web/assets/*
+
+# macOS specific
+**/macos/.last_build_id
+
+# Windows specific
+**/windows/Flutter/ephemeral
+**/windows/flutter/ephemeral
+**/windows/Flutter/ephemeral/
+**/windows/flutter/ephemeral/
+
+# Linux specific
+**/linux/ephemeral
+
+# VSCode specific
+.vscode/
